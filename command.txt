@@ -1,0 +1,6 @@
+git remote add origin https://github.com/USERNAME/PROJECT_NAME.git
+git remote -v
+
+npm install -g angular-cli-ghpages
+ng build --prod --base-href https://debugmodedotnet.github.io/demo9
+ngh -no-silent
